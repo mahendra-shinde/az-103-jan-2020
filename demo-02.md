@@ -15,6 +15,14 @@
     $ new-azresourcegroupdeployment -Name deploy1 -TemplateFile .\azuredeploy.json -TemplateParameterFile .\azuredeploy.parameters.json
 
     $ get-azresourcegroup -name grouptest1
+
+    $ get-azvm
+    ```
+
+4.  Delete the entire resource group
+
+    ```pwsh
+    $ remove-azresourcegroup -name grouptest1
     ```
 
     
