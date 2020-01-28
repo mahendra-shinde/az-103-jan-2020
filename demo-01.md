@@ -18,11 +18,11 @@ Press 'Y' for Installing from Untrusted repository
 
 Connect with Azure Subscription
 
-$ $cred = get-credentials
+$ $cred = get-credential
 
 Enter your azure account user and password
 
-$ connect-azaccount -credentials $cred
+$ connect-azaccount -credential $cred
 
 Now test the connection
 
