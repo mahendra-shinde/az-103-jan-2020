@@ -271,7 +271,7 @@
                     "autoUpgradeMinorVersion": true,
                     "settings": {
                       "fileUris": [
-                        "https://raw.githubusercontent.com/mahendra-shinde/az-103-jan-2020/tree/master/resources/template-2/nginx-install.sh"
+                        "https://raw.githubusercontent.com/mahendra-shinde/az-103-jan-2020/master/resources/template-2/nginx-install.sh"
                       ],
                       "commandToExecute": "bash nginx-install.sh"
                     }
