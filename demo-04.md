@@ -46,3 +46,8 @@
     ## To Save changes press CTRL+O and Then press ENTER
     ## To Quit, use CTRL+X
     ```
+8.  Stop All VMs at once (Use cloud shell)
+
+    ```pwsh
+    $ get-azvm | stop-azvm -force
+    ```
